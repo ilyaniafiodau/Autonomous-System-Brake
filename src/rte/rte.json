@@ -1,0 +1,87 @@
+{
+    "config": [
+        {
+            "namespace": "asb::rte"
+        }
+    ],
+    "data": [
+        {
+            "namespace": "asb::acs",
+            "publisher": "AcsTask",
+            "storage_name": "ACTUAL_TORQUE_Nm",
+            "storage_type": "brt::types::torque_Nm",
+            "default_value": "0.F"
+        },
+        {
+            "namespace": "asb::acs",
+            "publisher": "VcduDataProvider",
+            "storage_name": "REQUIRED_TORQUE_Nm",
+            "storage_type": "brt::types::torque_Nm",
+            "default_value": "0.F"
+        },
+        {
+            "namespace": "asb::acs",
+            "publisher": "AcsTask",
+            "storage_name": "ACS_ERROR",
+            "storage_type": "brt::types::eBits8",
+            "default_value": "brt::types::BIT0"
+        },
+        {
+            "namespace": "asb::command",
+            "publisher": "VcduDataProvider",
+            "storage_name": "FSM_MISSION_REQUEST",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::command",
+            "publisher": "VcduDataProvider",
+            "storage_name": "FSM_INIT_CHECK_UP_REQUEST",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::command",
+            "publisher": "VcduDataProvider",
+            "storage_name": "FSM_GO_SIGNAL",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::command",
+            "publisher": "VcduDataProvider",
+            "storage_name": "FSM_RESET_ASB",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::command",
+            "publisher": "VcduDataProvider",
+            "storage_name": "FSM_ASB_FINISH",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::init",
+            "publisher": "InitTask",
+            "storage_name": "FSM_INIT_CHECK_UP_EMERGENCY",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::init",
+            "publisher": "InitTask",
+            "storage_name": "FSM_INIT_CHECK_UP_OK",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        },
+        {
+            "namespace": "asb::driverlessRun",
+            "publisher": "DriverlessRunTask",
+            "storage_name": "FSM_RUN_EMERGENCY",
+            "storage_type": "brt::types::condition",
+            "default_value": "false"
+        }
+
+    ]
+}

@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/main.cpp.o -c /workspaces/asb/src/main.cpp",
+  "file": "/workspaces/asb/src/main.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/fsm/fsm_task.cpp.o -c /workspaces/asb/src/fsm/fsm_task.cpp",
+  "file": "/workspaces/asb/src/fsm/fsm_task.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/fsm/fsm.cpp.o -c /workspaces/asb/src/fsm/fsm.cpp",
+  "file": "/workspaces/asb/src/fsm/fsm.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/init/init_task.cpp.o -c /workspaces/asb/src/init/init_task.cpp",
+  "file": "/workspaces/asb/src/init/init_task.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/rte/generated/rte.cpp.o -c /workspaces/asb/src/rte/generated/rte.cpp",
+  "file": "/workspaces/asb/src/rte/generated/rte.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/scheduler/scheduler_task.cpp.o -c /workspaces/asb/src/scheduler/scheduler_task.cpp",
+  "file": "/workspaces/asb/src/scheduler/scheduler_task.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/acs/acs_task.cpp.o -c /workspaces/asb/src/acs/acs_task.cpp",
+  "file": "/workspaces/asb/src/acs/acs_task.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/monitoring/monitoring_task.cpp.o -c /workspaces/asb/src/monitoring/monitoring_task.cpp",
+  "file": "/workspaces/asb/src/monitoring/monitoring_task.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/src/supervisor/supervisor_task.cpp.o -c /workspaces/asb/src/supervisor/supervisor_task.cpp",
+  "file": "/workspaces/asb/src/supervisor/supervisor_task.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/platform/specific/linux/canbus.cpp.o -c /workspaces/asb/platform/specific/linux/canbus.cpp",
+  "file": "/workspaces/asb/platform/specific/linux/canbus.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/platform/specific/linux/io.cpp.o -c /workspaces/asb/platform/specific/linux/io.cpp",
+  "file": "/workspaces/asb/platform/specific/linux/io.cpp"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/cc -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu11 -o CMakeFiles/asb_linux.dir/platform/specific/linux/socketcan/socketcan.c.o -c /workspaces/asb/platform/specific/linux/socketcan/socketcan.c",
+  "file": "/workspaces/asb/platform/specific/linux/socketcan/socketcan.c"
+},
+{
+  "directory": "/workspaces/asb/cmake_build/LINUX",
+  "command": "/usr/bin/c++ -DHARDWARE_VERSION_MAJOR=1 -DHARDWARE_VERSION_MINOR=0 -DSOFTWARE_VERSION_MAJOR=1 -DSOFTWARE_VERSION_MINOR=0 -DVCS_REVISION_ID=0x -I/workspaces/asb/PRIVATE -I/workspaces/asb/src/submodules/tinyfsm/include -I/workspaces/asb/include -I/workspaces/asb/platform -I/workspaces/asb/src -I/workspaces/asb/src/fsm -I/workspaces/asb/src/init -I/workspaces/asb/src/scheduler -I/workspaces/asb/src/acs -I/workspaces/asb/src/monitoring -I/workspaces/asb/src/supervisor -std=gnu++20 -o CMakeFiles/asb_linux.dir/platform/specific/linux/time.cpp.o -c /workspaces/asb/platform/specific/linux/time.cpp",
+  "file": "/workspaces/asb/platform/specific/linux/time.cpp"
+}
+]
